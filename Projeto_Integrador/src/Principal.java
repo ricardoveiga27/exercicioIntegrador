@@ -26,7 +26,15 @@ public class Principal {
         Aluno aluno1 = new Aluno("Pedro", "Alves", 999);
         Aluno aluno2 = new Aluno("Roberto", "Silva", 88);
         Aluno aluno3 = new Aluno("Mateus", "Sousa", 778);
-        Aluno aluno4 = new Aluno("Maria", "Rita", 222), ;
+        Aluno aluno4 = new Aluno("Maria", "Rita", 222);
+
+
+        curso1.adicionarUmAluno(aluno1);
+        curso1.adicionarUmAluno(aluno2);
+
+
+        curso2.adicionarUmAluno(aluno3);
+        curso2.adicionarUmAluno(aluno4);
 
     }
 }
